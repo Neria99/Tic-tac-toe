@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layoutDirection="ltr"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btEasy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Easy level" />
+
+    <Button
+        android:id="@+id/btMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium level" />
+    <Button
+        android:id="@+id/btHard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hard level" />
+
+
+
+</LinearLayout>
